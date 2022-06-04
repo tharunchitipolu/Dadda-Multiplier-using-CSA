@@ -74,7 +74,7 @@ module dadda_32(A,B,Y);
     csa_dadda c_211(.A(s_1[11]),.B(c_1[10]),.Cin(c_2[9]),.Y(Y[27]),.Cout(c_2[10]));
     csa_dadda c_212(.A(s_1[12]),.B(c_1[11]),.Cin(c_2[10]),.Y(Y[28]),.Cout(c_2[11]));
     csa_dadda c_213(.A(s_1[13]),.B(c_1[12]),.Cin(c_2[11]),.Y(Y[29]),.Cout(c_2[12]));
-    csa_dadda c_214(.A(s_1[14]),.B(c_1[12]),.Cin(c_2[12]),.Y(Y[30]),.Cout(c_2[13]));
+    csa_dadda c_214(.A(s_1[14]),.B(c_1[13]),.Cin(c_2[12]),.Y(Y[30]),.Cout(c_2[13]));
     csa_dadda c_215(.A(s_1[15]),.B(c_1[14]),.Cin(c_2[13]),.Y(Y[31]),.Cout(c_2[14]));
     csa_dadda c_216(.A(s_1[16]),.B(c_1[15]),.Cin(c_2[14]),.Y(Y[32]),.Cout(c_2[15]));
     csa_dadda c_217(.A(s_1[17]),.B(c_1[16]),.Cin(c_2[15]),.Y(Y[33]),.Cout(c_2[16]));
