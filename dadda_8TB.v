@@ -13,7 +13,7 @@ wire [N+M-1:0]y;
 
 //---- Instantiation of main test module----
 //Array_MUL_USign #(64,64) UUT(A,B,Y); //M=4,N=6
- dadda_8 UUT(.A(A),.B(B),.y(Y));
+ dadda_8 UUT(.A(A),.B(B),.y(y));
 
 
 // initializing the inputs to the test module
@@ -28,7 +28,7 @@ begin
 	//-----VERIFICATION OF THE OBTAINED RESULT WITH EXISTING RESULT------
 	$display(" A=%d,B=%d,AxB=%d",(A),(B),(y));
 
-	if( (A)*(B) != (Y)) 
+	if( (A)*(B) != (y)) 
 		$display(" *ERROR* ");
 
 end
